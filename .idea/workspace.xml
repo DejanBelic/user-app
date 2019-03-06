@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2a148b75-1ef4-40b5-b822-22c0eb2e5b08" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/devconnector/model/Profile.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devconnector/routes/api/profile.js" beforeDir="false" afterPath="$PROJECT_DIR$/devconnector/routes/api/profile.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -18,28 +18,28 @@
     <session id="840929230">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="11" />
-          <entry key="project.open.time.0" value="5" />
-          <entry key="project.open.time.1" value="1" />
+          <entry key="project.closed" value="16" />
+          <entry key="project.open.time.0" value="6" />
+          <entry key="project.open.time.1" value="3" />
           <entry key="project.open.time.11" value="1" />
-          <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.2" value="2" />
           <entry key="project.open.time.5" value="1" />
-          <entry key="project.open.time.6" value="4" />
-          <entry key="project.opened" value="13" />
+          <entry key="project.open.time.6" value="5" />
+          <entry key="project.opened" value="18" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="gitignnore" value="2" />
           <entry key="gitignore" value="1" />
-          <entry key="js" value="18" />
+          <entry key="js" value="27" />
           <entry key="json" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="JSON" value="3" />
-          <entry key="JavaScript" value="18" />
+          <entry key="JavaScript" value="27" />
           <entry key="PLAIN_TEXT" value="3" />
         </counts>
       </usages-collector>
@@ -47,18 +47,18 @@
         <counts>
           <entry key="gitignnore" value="63" />
           <entry key="gitignore" value="46" />
-          <entry key="js" value="5551" />
+          <entry key="js" value="7092" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JavaScript" value="5551" />
+          <entry key="JavaScript" value="7092" />
           <entry key="PLAIN_TEXT" value="109" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts">
         <counts>
-          <entry key="LanguageService" value="11" />
+          <entry key="LanguageService" value="16" />
           <entry key="PrettierLanguageServiceImpl" value="1" />
         </counts>
       </usages-collector>
@@ -69,26 +69,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/devconnector/routes/api/users.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="26" selection-start-line="26" selection-end-line="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/devconnector/model/Profile.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="645">
-              <caret line="149" column="68" selection-start-line="149" selection-start-column="68" selection-end-line="149" selection-end-column="68" />
+            <state relative-caret-position="-139">
+              <caret line="86" column="30" lean-forward="true" selection-start-line="86" selection-start-column="30" selection-end-line="86" selection-end-column="30" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/devconnector/validation/register.js">
+        <entry file="file://$PROJECT_DIR$/devconnector/model/Profile.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="33" column="5" selection-end-line="49" selection-end-column="2" />
+            <state relative-caret-position="309">
+              <caret line="133" column="10" selection-start-line="133" selection-start-column="10" selection-end-line="133" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -96,8 +87,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/devconnector/validation/login.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="17" selection-start-line="17" selection-end-line="17" />
+            <state relative-caret-position="400">
+              <caret line="25" column="2" selection-start-line="25" selection-start-column="2" selection-end-line="25" selection-end-column="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/devconnector/routes/api/profile.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="629">
+              <caret line="84" column="78" selection-start-line="84" selection-start-column="78" selection-end-line="84" selection-end-column="78" />
             </state>
           </provider>
         </entry>
@@ -109,6 +109,10 @@
       <find>auth</find>
       <find>bcr</find>
       <find>const {</find>
+      <find>login</find>
+      <find>mongoURI</find>
+      <find>keys.</find>
+      <find>handle</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -118,17 +122,18 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/devconnector/model/User.js" />
-        <option value="$PROJECT_DIR$/devconnector/server.js" />
-        <option value="$PROJECT_DIR$/devconnector/config/passport.js" />
-        <option value="$PROJECT_DIR$/devconnector/config/keys.js" />
         <option value="$PROJECT_DIR$/.gitignnore" />
         <option value="$PROJECT_DIR$/devconnector/.gitignnore" />
         <option value="$PROJECT_DIR$/devconnector/.gitignore" />
         <option value="$PROJECT_DIR$/devconnector/validation/is-empty.js" />
         <option value="$PROJECT_DIR$/devconnector/validation/register.js" />
         <option value="$PROJECT_DIR$/devconnector/validation/login.js" />
-        <option value="$PROJECT_DIR$/devconnector/routes/api/users.js" />
         <option value="$PROJECT_DIR$/devconnector/model/Profile.js" />
+        <option value="$PROJECT_DIR$/devconnector/config/passport.js" />
+        <option value="$PROJECT_DIR$/devconnector/config/keys.js" />
+        <option value="$PROJECT_DIR$/devconnector/server.js" />
+        <option value="$PROJECT_DIR$/devconnector/routes/api/users.js" />
+        <option value="$PROJECT_DIR$/devconnector/routes/api/profile.js" />
       </list>
     </option>
   </component>
@@ -162,6 +167,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -209,12 +215,11 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
-    <property name="SearchEverywhereHistoryKey" value="users&#9;FILE&#9;file:///home/dejan/www/Private/user-app/devconnector/routes/api/users.js&#10;user&#9;FILE&#9;file:///home/dejan/www/Private/user-app/devconnector/model/User.js&#10;pa&#9;FILE&#9;file:///home/dejan/www/Private/user-app/devconnector/config/passport.js" />
+    <property name="SearchEverywhereHistoryKey" value="keys&#9;null&#9;null&#10;config&#9;FILE&#9;file:///home/dejan/www/Private/user-app/devconnector/config&#10;users&#9;FILE&#9;file:///home/dejan/www/Private/user-app/devconnector/routes/api/users.js&#10;user&#9;FILE&#9;file:///home/dejan/www/Private/user-app/devconnector/model/User.js&#10;pa&#9;FILE&#9;file:///home/dejan/www/Private/user-app/devconnector/config/passport.js" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="/usr/local/lib/node_modules/prettier" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -262,18 +267,23 @@
       <workItem from="1550779849059" duration="21000" />
       <workItem from="1551513936940" duration="9030000" />
       <workItem from="1551525916134" duration="142000" />
-      <workItem from="1551526077839" duration="1468000" />
+      <workItem from="1551526077839" duration="2157000" />
+      <workItem from="1551715561657" duration="121000" />
+      <workItem from="1551806621492" duration="1777000" />
+      <workItem from="1551856213078" duration="602000" />
+      <workItem from="1551869983435" duration="1696000" />
+      <workItem from="1551894416469" duration="2783000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27008000" />
+    <option name="totallyTimeSpent" value="34676000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-3" y="-1" width="1926" height="1060" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.10964681" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -286,7 +296,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Quokka" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.28500497" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.2010989" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -303,25 +313,11 @@
     <entry file="file://$PROJECT_DIR$/devconnector/package.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/devconnector/config/passport.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="22" column="2" selection-start-line="22" selection-start-column="2" selection-end-line="22" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/devconnector/.gitignnore" />
     <entry file="file://$PROJECT_DIR$/devconnector/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="48">
           <caret line="3" column="9" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/devconnector/server.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>
@@ -332,10 +328,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/devconnector/node_modules/mongodb-core/lib/connection/connection.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2609">
+          <caret line="283" column="50" lean-forward="true" selection-start-line="283" selection-start-column="50" selection-end-line="283" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/devconnector/routes/api/posts.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/devconnector/server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="20" column="33" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/devconnector/config/keys.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="2" column="24" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="24" />
+        <state relative-caret-position="96">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/devconnector/validation/register.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -346,31 +366,38 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/devconnector/config/passport.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/devconnector/routes/api/users.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/devconnector/validation/register.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="33" column="5" selection-end-line="49" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/devconnector/validation/login.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        <state relative-caret-position="-139">
+          <caret line="86" column="30" lean-forward="true" selection-start-line="86" selection-start-column="30" selection-end-line="86" selection-end-column="30" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/devconnector/model/Profile.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="645">
-          <caret line="149" column="68" selection-start-line="149" selection-start-column="68" selection-end-line="149" selection-end-column="68" />
+        <state relative-caret-position="309">
+          <caret line="133" column="10" selection-start-line="133" selection-start-column="10" selection-end-line="133" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/devconnector/validation/login.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="25" column="2" selection-start-line="25" selection-start-column="2" selection-end-line="25" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/devconnector/routes/api/profile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="84" column="78" selection-start-line="84" selection-start-column="78" selection-end-line="84" selection-end-column="78" />
         </state>
       </provider>
     </entry>
